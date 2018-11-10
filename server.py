@@ -15,7 +15,7 @@ cache = {}
 # PAGINAA DE INICIO
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('productos.html')
 # FIN
 
 
